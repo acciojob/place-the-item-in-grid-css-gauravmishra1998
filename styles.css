@@ -2,8 +2,8 @@
 .holder{
     background-color:aqua;
     display: grid;
-    grid-template-columns:100px 100px;
-    grid-template-rows:100px 100px;
+    grid-template-columns:repeat(2,100px);
+    grid-template-rows:repeat(2,100px);
     row-gap: 10px;
     column-gap: 10px;
 	
